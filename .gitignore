@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# --- Virtual environment ---
+.venv/
+env/
+venv/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment files ---
+.env
+
+# --- Streamlit secrets (local copy) ---
+.streamlit/secrets.toml
+
+# --- Logs ---
+*.log
+
+# --- VSCode ---
+.vscode/

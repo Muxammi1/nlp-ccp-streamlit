@@ -1,0 +1,19 @@
+# Core app
+streamlit==1.25.0
+openai>=1.3.0,<1.30.0
+requests==2.31.0
+langdetect==1.0.9
+beautifulsoup4==4.12.2
+lxml==4.9.3
+python-dotenv==1.0.0
+newspaper3k==0.2.8
+
+# PDF support (Windows-safe)
+pdfplumber==0.7.6
+cryptography==41.0.7   # Stable with Python 3.9 + Windows
+
+# Optional: if newspaper3k complains about NLTK
+nltk==3.8.1
+
+feedparser
+requests
